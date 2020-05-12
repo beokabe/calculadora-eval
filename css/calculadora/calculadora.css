@@ -1,0 +1,12 @@
+.calculadora {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+
+  border-radius: 5px;
+  padding: 10px;
+
+  background-color: #202020;
+  box-shadow      : 7px 10px 8px black;
+}

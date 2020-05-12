@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+.teclado { 
+  display        : inline-grid;
+  grid-template-rows   : 50px 50px 50px 50px 50px;
+  grid-template-columns: 83px 83px 83px 150px;
+  grid-gap             : 5px;
+}
+
+button {
+  max-width      : -webkit-fill-available;
+  background     : #800080;
+  border         : 0;
+  border-radius  : 5px;
+  color          : #fff;
+  text-decoration: none;
+  font-size      : 17px;
+  line-height    : 35px;
+  cursor         : pointer;
+  transition     : filter cubic-bezier(0, 1.6, 1, -0.47);
+  box-shadow: 1px 1px 3px #000;
+  font-family: 'Play', sans-serif;
+}
+
+button:hover {
+  filter: opacity(0.5);
+}
